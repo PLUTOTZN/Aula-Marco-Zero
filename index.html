@@ -9,19 +9,41 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
-    header, footer {
+    header {
       background-color: #333;
       color: #fff;
       text-align: center;
       padding: 20px 0;
+      flex: 0 0 auto;
     }
     main {
       padding: 20px;
+      flex: 1 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     img {
       max-width: 100%;
       height: auto;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      flex: 0 0 auto;
+    }
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -38,20 +60,16 @@
     <img src="marco_zero.jpg" alt="Marco Zero">
     
     <p>O local também é conhecido por sua beleza arquitetônica, com destaque para os antigos armazéns do porto, que foram revitalizados e hoje abrigam bares, restaurantes, museus e centros culturais.</p>
+    
+    <h2>Marco Zero</h2>
+    <p>O Marco Zero do Recife é o ponto de início das estradas que ligam a cidade aos outros estados e ao interior do Brasil.</p>
+    <img src="imagens/marco-zero.jpg" alt="Marco Zero do Recife">
+    
+    <a href="https://github.com/PLUTOTZN/Outros-pontos-turisticos.git">Conheça outros pontos turísticos do Recife Antigo</a>
   </main>
   
   <footer>
     <p>© 2024 Recife Turismo. Todos os direitos reservados.</p>
   </footer>
-</style>
-</head>
-<body>
-    <h1>Marco Zero</h1>
-    <p>O Marco Zero do Recife é o ponto de início das estradas que ligam a cidade aos outros estados e ao interior do Brasil.</p>
-    <img src="imagens/marco-zero.jpg" alt="Marco Zero do Recife">
-
-    <a href="https://github.com/PLUTOTZN/Outros-pontos-tur-sticos.git
-">Conheça outros pontos turísticos do Recife Antigo</a>
-</body>
 </body>
 </html>
